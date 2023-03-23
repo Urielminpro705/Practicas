@@ -98,6 +98,29 @@
             100%{top: 0px; left: 500px; background: white;}
 
         }
+
+        #circulo{
+            width: 100px;
+            height: 100px;
+            left: 800px;
+            background: purple;
+            position: absolute;
+            border-radius: 50%;
+            animation: crece 5s infinite;
+        }
+
+        @keyframes crece{
+            0%{top: 0px; width: 100px; height: 100px;}
+            100%{top: 200px; width: 300px; height: 300px;}
+        }
+
+        .gradiente{
+            width: 300px;
+            height: 300px;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+        }
+
     </style>
 </head>
 <body>
@@ -106,5 +129,7 @@
     <div id="cuadroBlanco2" class="cuadroBlanco">2</div>
     <div id="cuadroRojo"></div>
     <div id="cuadroMulticolor"></div>
+    <div id="circulo"></div>
+    <div class="gradiente"></div>
 </body>
 </html>
