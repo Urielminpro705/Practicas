@@ -1,0 +1,114 @@
+body{
+    animation: colores 10s infinite;
+}
+
+@keyframes colores{
+    0%{
+        background: pink;
+    }
+
+    25%{
+        background: black;
+    }
+
+    50%{
+        background: purple;
+    }
+
+    100%{
+        background: yellow;
+    }
+}
+
+h1{
+    text-align: center;
+    padding-top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.cuadroBlanco{
+    background: white;
+    position: absolute;
+    animation: mueveCuadro 5s infinite;
+}
+
+#cuadroBlanco1{
+    width: 100px;
+    height: 100px;
+    left: 50px;
+
+}
+
+#cuadroBlanco2{
+    width: 100px;
+    height: 100px;
+    left: 200px;
+
+}
+
+
+@keyframes mueveCuadro {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+#cuadroRojo{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    left: 350px;
+    animation: mueveRojo 5s infinite;
+}
+
+@keyframes mueveRojo{
+    0%{top: 0px; background: pink; border: 5px solid black;}
+    25%{top: 200px; width: 500px; border: 5px solid white;background: black;}
+    50%{top: 50px;background: purple; border: 5px solid black;}
+    100%{top: 100px;background: yellow; border: 5px solid black;}
+}
+
+#cuadroMulticolor{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    left: 450px;
+    animation: moverMulticolor 1s infinite;
+}
+
+@keyframes moverMulticolor{
+    0%{top: 0px; left: 500px; background: red;}
+    25%{top: 0px; left: 600px; background: blue;}
+    50%{top: 0px; left: 500px; background: yellow;}
+    75%{top: 0px; left: 600px; background: green;}
+    100%{top: 0px; left: 500px; background: white;}
+
+}
+
+#circulo{
+    width: 100px;
+    height: 100px;
+    left: 800px;
+    background: purple;
+    position: absolute;
+    border-radius: 50%;
+    animation: crece 5s infinite;
+}
+
+@keyframes crece{
+    0%{top: 0px; width: 100px; height: 100px;}
+    100%{top: 200px; width: 300px; height: 300px;}
+}
+
+.gradiente{
+    width: 300px;
+    height: 300px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+}
