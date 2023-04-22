@@ -85,14 +85,112 @@
  
             const PI_ = 3.1416;
  
-            const autos = ["VW","Chevrolet","BMW",,,50,"6"];
-            console.log(autos[0] + autos[1]);
+            const autos = ["VW", "Chevrolet", "BMW",10,true,"Hola","Mundo"];
+            console.log(autos);
+            console.log(autos[2]);
+            console.log(autos[6]);
+            console.log(autos[4]);
             console.log(autos.length);
-
-            let autoNuevo = {
-                tipo : "Toyota",
+    
+            const autoNuevo = {
+                tipo : "Toyota Camry",
                 modelo : 500,
-                color : "blanco"
+                color : "Blanco"
+            }
+            console.log(autoNuevo);
+            console.log(autoNuevo.color);
+            autoNuevo.color = "Rojo";
+            console.log(autoNuevo.color);
+    
+            var x1 = 4.5;
+            console.log(typeof x1);
+    
+            var y1 = 10;
+            console.log(typeof y1);
+    
+            var z1 = 'Hola';
+            console.log(typeof z1);
+            console.log(typeof autos);
+            console.log(typeof autoNuevo);
+            console.log( 5 * 15);
+            console.log( 3 > 10 );
+    
+            console.log("Thor" > "Iron Man");
+            console.log("a" > "b");
+            console.log("de" > "bc");
+            console.log(true && false);
+            console.log(true && true);
+            console.log(false || true);
+            console.log( true ? 1 : 2);
+            console.log( false ? 1 : 2);
+    
+            let edad = 18;
+            //Operador Ternario
+            edad > 20 ? "Verdadero" : "Falso";
+    
+            if(edad > 20)
+            {
+                console.log("Verdadero");
+            }
+            else
+            {
+                console.log("Falso");
+            }
+    
+            console.log(8 * null);
+            console.log("5" - 1);
+            console.log("5" +  1);
+    
+            let valor = 0;
+            while( valor <= 12) {
+                console.log(valor);
+                valor++;
+            }
+    
+            for(let numero = 0; numero <=12; numero++){
+                console.log(`For: ${numero}`);
+            }
+
+            edad = 27;
+            console.log(edad);
+ 
+            let edadSamuel = 25;
+            //let edadSamuel;
+ 
+            //Let Hoisting
+ 
+            var x1 = 4.5;
+            console.log(typeof x1);
+ 
+            var y1 = 109845634;
+            console.log(typeof y1);
+ 
+            var z1 = "Hola";
+            console.log(typeof z1);
+ 
+            var p1 = false;
+            console.log(typeof p1);
+ 
+            console.log("resultado:",typeof autos);
+            console.log(typeof autoNuevo);
+ 
+            console.log( 3 > 10);
+            console.log("Thor" > "Iron Man");
+            console.log("a" > "b");
+            console.log("de" < "bc")
+            console.log( true && false);
+            console.log( true && true);
+            console.log( true || false);
+ 
+            //Operador ternario
+            let edadEmilio = 25;
+            if(edadEmilio > 18)
+            {
+                alert('Verdadero');
+            }
+            else
+            {
+                alert('Falso');
             }
     </script>
 </body>
