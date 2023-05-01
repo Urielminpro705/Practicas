@@ -9,10 +9,15 @@
 }
 
 .navegador {
+    top: 100px;
     margin-top: 1.4%;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 90% 
+}
+
+.navbar-nav {
+    background-color: white;
 }
 
 .navegador a {
@@ -48,5 +53,9 @@
     .nav-item{
         margin-bottom: 10px;
     }
+}
+
+@media screen and (max-width:719){
+    
 }
 
