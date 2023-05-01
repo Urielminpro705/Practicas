@@ -1,27 +1,52 @@
-#logo {
-    padding: 0%;
-    margin: 0%;
-    text-align: center;
-    width: 100%;
+* {
+    font-family: 'Lato', sans-serif;
 }
 
-.container-fluid {
-    position: fixed;
-    align-items: center;
+.fixed-top {
+    text-align: center;
     width: 100%;
     background-color: white;
-    margin: 0px;
-    padding: 0px;
+}
+
+.navegador {
+    margin-top: 1.4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 90% 
+}
+
+.navegador a {
+    color: rgb(44, 44, 44)
+}
+
+.navegador a:hover{
+    text-decoration: underline solid;
+    color: black;
 }
 
 #titulo {
-    background-color: white;
-    position: fixed;
-    border-color: black;
-    width: 100%;
+    border-bottom: 1px;
+        box-shadow: 0px 2px 4px rgb(150, 150, 150);
 }
 
-.animated.bounceIn,.animated.bounceOut {
-    -webkit-animation-duration: .75s;
-    animation-duration: .75s
+@media screen and (width: 1200px){
+    #logo {
+        text-align: left;
+    }
+
+    .nav-item{
+        margin-bottom: 10px;
+    }
 }
+
+@media screen and (max-width: 1199px){
+    #logo {
+        margin-right: 68%;
+        text-align: right;
+        
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+}
+
