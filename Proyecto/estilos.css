@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1199px) and  (min-width: 719px){
     #logo {
         margin-right: 68%;
         text-align: right;
@@ -55,7 +55,4 @@
     }
 }
 
-@media screen and (max-width:719){
-    
-}
 
