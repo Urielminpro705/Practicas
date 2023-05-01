@@ -1,0 +1,27 @@
+#logo {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+.container-fluid {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo {
+    background-color: white;
+    position: fixed;
+    border-color: black;
+    width: 100%;
+}
+
+.animated.bounceIn,.animated.bounceOut {
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s
+}
