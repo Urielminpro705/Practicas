@@ -1,0 +1,58 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.fixed-top {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.navegador {
+    top: 100px;
+    margin-top: 1.4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 90% 
+}
+
+.navbar-nav {
+    background-color: white;
+}
+
+.navegador a {
+    color: rgb(44, 44, 44)
+}
+
+.navegador a:hover{
+    text-decoration: underline solid;
+    color: black;
+}
+
+#titulo {
+    border-bottom: 1px;
+        box-shadow: 0px 2px 4px rgb(150, 150, 150);
+}
+
+@media screen and (width: 1200px){
+    #logo {
+        text-align: left;
+    }
+
+    .nav-item{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1199px) and  (min-width: 719px){
+    #logo {
+        margin-right: 68%;
+        text-align: right;
+        
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+}
+
+
