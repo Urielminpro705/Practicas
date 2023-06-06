@@ -1,0 +1,21 @@
+#fijo{
+    position: fixed;
+    background-color: green;
+
+}
+
+#abosluto{
+    position: absolute;
+    background-color: pink;
+    left: 50px;
+    bottom: 50px;
+
+}
+
+#pegajoso {
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: yellow;
+    top: 50px;
+    
+}
